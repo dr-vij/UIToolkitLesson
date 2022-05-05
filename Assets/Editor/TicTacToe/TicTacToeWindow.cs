@@ -3,13 +3,14 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-//LINK234
+//Useful LINKS.. zwo drei vier, Kann man herzen brechen, stop what? 
 //https://blog.unity.com/technology/whats-new-in-ui-toolkit
 //https://forum.unity.com/threads/ui-toolkit-migration-guide.1138621/
 //https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 //https://yogalayout.com/
 //https://docs.unity3d.com/Manual/UIE-LayoutEngine.html
 //https://docs.unity3d.com/2020.1/Documentation/Manual/UIE-USS-Selectors-Pseudo-Classes.html
+//https://docs.unity3d.com/Manual/UIE-USS-Selectors.html
 
 public class TicTacToeWindow : EditorWindow
 {

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/TabbedMenu/TabbedMenu-style.uss?fileID=7433441132597879392&amp;guid=fdeb22b979df8451b91a675c67d2cff8&amp;type=3#TabbedMenu-style" />
+    <ui:VisualElement name="tabs">
+        <ui:Label name="LondonTab" text="London" class="tab currentlySelectedTab" style="flex-direction: column-reverse; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement class="innerBox" />
+        </ui:Label>
+        <ui:Label name="ParisTab" text="Paris" class="tab" style="flex-direction: column-reverse; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement class="innerBox" />
+        </ui:Label>
+        <ui:Label name="OttawaTab" text="Ottawa" class="tab" style="flex-direction: column-reverse; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement class="innerBox" />
+        </ui:Label>
+    </ui:VisualElement>
+    <ui:VisualElement name="tabContent">
+        <ui:Label text="London is the capital city of England" name="LondonContent" />
+        <ui:Label text="Paris is the capital of France" name="ParisContent" class="unselectedContent" />
+        <ui:Label text="Ottawa is the capital of Canada" name="OttawaContent" class="unselectedContent" />
+    </ui:VisualElement>
+</ui:UXML>
