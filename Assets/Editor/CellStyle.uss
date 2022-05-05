@@ -1,0 +1,61 @@
+.Cell {
+    background-color: rgb(197, 197, 197);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-grow: 1;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 100px;
+    max-height: 100px;
+    transition-duration: 0.3s;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Cell:hover {
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-grow: 1;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Tac {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 102px;
+    border-bottom-left-radius: 102px;
+    border-top-right-radius: 102px;
+    border-bottom-right-radius: 102px;
+    border-left-color: rgb(255, 0, 0);
+    border-right-color: rgb(255, 0, 0);
+    border-top-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,20 @@
+.WinnerLabel {
+    display: flex;
+    transition-duration: 1s;
+    font-size: 13px;
+}
+
+.Hidden {
+    display: none;
+}
+
+.WinnerLabel:hover {
+    display: flex;
+    color: rgba(255, 0, 0, 255);
+    text-shadow: 5px 5px 5px rgba(0, 255, 15, 0.51);
+    -unity-text-outline-color: rgb(56, 56, 56);
+}
+
+.EndGameLabel {
+    font-size: 100px;
+}

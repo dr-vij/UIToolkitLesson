@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/TicTacToeStyle.uss?fileID=7433441132597879392&amp;guid=98b9a95df03744d189e8d11b4259210d&amp;type=3#TicTacToeStyle" />
+    <ui:VisualElement name="GridRoot" style="flex-grow: 1; min-width: 90px; min-height: 90px; max-width: 300px; max-height: 300px;" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="WinnerLabel" />
+</ui:UXML>
